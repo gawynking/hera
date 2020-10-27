@@ -54,8 +54,10 @@
 
     </properties>
 
+
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
@@ -80,6 +82,7 @@
                 <artifactId>spring-boot-starter-data-redis</artifactId>
                 <version>${springboot.version}</version>
             </dependency>
+
             <!-- redisson-->
             <dependency>
                 <groupId>org.redisson</groupId>
@@ -116,52 +119,62 @@
                 <artifactId>netty-all</artifactId>
                 <version>${netty.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>log4j-over-slf4j</artifactId>
                 <version>${log4j.over.slf4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging-api</artifactId>
                 <version>${jcl_version}</version>
             </dependency>
+
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
@@ -179,7 +192,6 @@
                 <artifactId>lombok</artifactId>
                 <version>${projectlombok.version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>commons-lang</groupId>
@@ -210,7 +222,6 @@
                 <artifactId>commons-fileupload</artifactId>
                 <version>${commons-fileupload.version}</version>
             </dependency>
-
 
         </dependencies>
     </dependencyManagement>
